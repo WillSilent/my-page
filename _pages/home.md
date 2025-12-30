@@ -18,6 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
+  title: Latest News
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
@@ -34,6 +35,63 @@ I am an associate professor at SMU Lyle. I lead the Mobile and Internet SecuriTy
 Chen Wang received his Ph.D. degree in Electrical and Computer Engineering at Rutgers University and he worked at WINLAB. He obtained his Master’s and Bachelor’s degrees from University of Electronic and Science of Technology of China (UESTC). [Google Scholar]
 
 I am seeking collaborations with small businesses and startups in the areas of security, smart health, robotics, blockchain-based technologies and the metaverse!
+
+<div style="clear: both;"></div>
+
+---
+
+## Outreach Activities
+
+<div class="row mt-4">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/1.jpg" class="img-fluid rounded z-depth-1" %}
+        <div class="caption mt-2">
+            <strong>Conference Presentation</strong><br>
+            Presenting research at IEEE Conference
+        </div>
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/2.jpg" class="img-fluid rounded z-depth-1" %}
+        <div class="caption mt-2">
+            <strong>Workshop & Training</strong><br>
+            Security awareness workshop for students
+        </div>
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/3.jpg" class="img-fluid rounded z-depth-1" %}
+        <div class="caption mt-2">
+            <strong>Lab Demonstration</strong><br>
+            MIST Lab robotics security demo
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/4.jpg" class="img-fluid rounded z-depth-1" %}
+        <div class="caption mt-2">
+            <strong>Industry Collaboration</strong><br>
+            Meeting with startup partners
+        </div>
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/5.jpg" class="img-fluid rounded z-depth-1" %}
+        <div class="caption mt-2">
+            <strong>Guest Lecture</strong><br>
+            IoT Security seminar
+        </div>
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/6.jpg" class="img-fluid rounded z-depth-1" %}
+        <div class="caption mt-2">
+            <strong>Podcast Interview</strong><br>
+            Discussing cybersecurity trends
+        </div>
+    </div>
+</div>
+
+---
+
 {% comment %}
   Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

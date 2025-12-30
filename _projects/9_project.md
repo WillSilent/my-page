@@ -10,7 +10,7 @@ category: nsf2
 
 This work was published at 2025 IEEE 22nd International Conference on Mobile Ad-Hoc and Smart Systems (MASS) {% cite zhang2025converting %}.
 
-## Abstract
+### Abstract
 
 Bluetooth headphones are increasingly commonly used in daily life, offering convenience and enhanced audio experience. However, these devices remain underexplored for human-beneficial applications such as serving as authenticator due to the challenges of implementing acoustic sensing on them. Particularly, Bluetooth headphones are limited by low-frequency audio bandwidth and have built-in echo cancellation algorithms, which makes the recorded signal incomplete and cannot be used for acoustic analysis. This work addresses these challenges and achieves acoustic sensing on bone-conduction Bluetooth headphones to extract a unique bone-conducted head biometric for user authentication. Specifically, the proposed system emits a user-friendly signal consisting of a welcome tone followed by a short human voice, and analyzes the received signals using a convolutional neural network developed with residual blocks to derive stable biometrics to verify users. Extensive experiments show that the proposed system can verify users’ identities with an average accuracy of 97.51% and can successfully reject 100% of replay attacks, even when an adversary eavesdrops on the authentication sound and the acoustic biometric data.
 <br>

@@ -10,7 +10,7 @@ category: nsf2
 
 This work was published at IEEE Symposium on Security and Privacy 2023 {% cite wang2023loweffort %}.
 
-## Abstract
+### Abstract
 
 While Virtual Reality (VR) applications are becoming increasingly common, efficiently verifying a VR device user
 before granting personal access is still a challenge. Existing VR
