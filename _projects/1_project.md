@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Project 1
-description: Biometric Encoding for Replay-Resistant Smartphone User Authentication Using Handgrips
+title: Biometric Encoding for Replay-Resistant Smartphone User Authentication Using Handgrips
+description: 
 img: assets/img/12.jpg
 importance: 1
 category: nsf1

@@ -175,15 +175,44 @@ ul.task-list input[type="checkbox"] {
   .card-img {
     width: 100%;
     padding-top: 1.25rem;
+
+    height: 100%;
+    object-fit: cover;
   }
 
   .card-title {
     color: var(--global-text-color);
+    font-size: 1.25rem !important;
   }
 
   .card-body {
     padding: 1.25rem 1.25rem 1.25rem 1.25rem;
   }
+}
+
+// Project card image container
+.project-img-container {
+  overflow: hidden;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  padding: 0 !important;
+
+  figure {
+    margin: 0 !important;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.projects .card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
 }
 
 // Citation

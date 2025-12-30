@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Project2
-description: Low-effort VR Headset User Authentication Using Head-reverberated Sounds with Replay Resistance
+title: Low-effort VR Headset User Authentication Using Head-reverberated Sounds with Replay Resistance
+description: 
 img: assets/img/Low-effort_VR_figure_1.png
 importance: 2
 related_publications: true

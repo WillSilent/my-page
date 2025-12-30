@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Project 4
-description: Enhancing QR Code System Security by Verifying the Scanner's Gripping Hand Biometric
+title: Enhancing QR Code System Security by Verifying the Scanner's Gripping Hand Biometric
+description: 
 img: assets/img/7.jpg
 importance: 1
 category: nsf1

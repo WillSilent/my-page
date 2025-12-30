@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Project3
-description: Converting Your Bluetooth Headphones into Active Sensing Authenticator a Bone-Conduction Solution.
+title: Converting Your Bluetooth Headphones into Active Sensing Authenticator a Bone-Conduction Solution
+description: 
 img: assets/img/bond_conduction.jpg
 importance: 3
 related_publications: true

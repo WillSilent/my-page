@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Project 5
-description: Hand Skeleton Motion Behavior Verification
+title: Hand Skeleton Motion Behavior Verification
+description: 
 img: assets/img/1.jpg
 importance: 1
 category: nsf1

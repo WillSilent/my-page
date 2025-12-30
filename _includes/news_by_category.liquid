@@ -1,0 +1,33 @@
+<div class="news">
+  {% if site.news != blank %}
+    {% if include.category %}
+      {% assign filtered_news = site.news | where: "category", include.category %}
+    {% else %}
+      {% assign filtered_news = site.news %}
+    {% endif %}
+    {% assign news_size = filtered_news | size %}
+    {% if news_size > 0 %}
+      <div class="table-responsive">
+        <table class="table table-sm table-borderless">
+          {% assign news = filtered_news | reverse %}
+          {% for item in news %}
+            <tr>
+              <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+              <td>
+                {% if item.inline %}
+                  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                {% else %}
+                  <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </table>
+      </div>
+    {% else %}
+      <p>No news so far...</p>
+    {% endif %}
+  {% else %}
+    <p>No news so far...</p>
+  {% endif %}
+</div>

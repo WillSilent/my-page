@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Project 6
-description: Extending the Sensing Capability of Touchscreen to Fingerprint Authentication
+title: Extending the Sensing Capability of Touchscreen to Fingerprint Authentication
+description: 
 img: assets/img/7.jpg
 importance: 1
 category: nsf1

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Project 3
-description: Fast Detection of Handheld Phone-distracted Driving by Sensing the Driver's Hand-grip
+title: Fast Detection of Handheld Phone-distracted Driving by Sensing the Driver's Hand-grip
+description: 
 img: assets/img/7.jpg
 # redirect: https://unsplash.com
 importance: 1

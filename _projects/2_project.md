@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Project 2
-description: Low-effort Handheld Device User Authentication Using Musical Sounds
+title: Low-effort Handheld Device User Authentication Using Musical Sounds
+description: 
 img: assets/img/3.jpg
 importance: 1
 category: nsf1

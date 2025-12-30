@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Project1
-description: Sniffing Location Privacy of Video Conference Users Using Free Audio Channels
-img: assets/img/4.jpg
+title: Sniffing Location Privacy of Video Conference Users Using Free Audio Channels
+description: 
+img: assets/img/sniff_location_figure_3.png
 importance: 1
 category: nsf2
 related_publications: true

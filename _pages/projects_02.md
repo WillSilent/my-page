@@ -75,6 +75,10 @@ horizontal: false
 {% endif %}
 </div>
 
+## Video Conferencing Security News
+
+{% include news_by_category.liquid category="nsf2" %}
+
 ## Publications
 
 <div class="publications">
