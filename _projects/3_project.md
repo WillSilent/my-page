@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: Project 3
+description: Fast Detection of Handheld Phone-distracted Driving by Sensing the Driver's Hand-grip
 img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+# redirect: https://unsplash.com
+importance: 1
 category: nsf1
 ---
 

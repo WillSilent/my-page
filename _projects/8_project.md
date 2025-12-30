@@ -1,81 +1,89 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
+title: Project2
+description: Low-effort VR Headset User Authentication Using Head-reverberated Sounds with Replay Resistance
+img: assets/img/Low-effort_VR_figure_1.png
 importance: 2
+related_publications: true
 category: nsf2
-giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This work was published at IEEE Symposium on Security and Privacy 2023 {% cite wang2023loweffort %}.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Abstract
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+While Virtual Reality (VR) applications are becoming increasingly common, efficiently verifying a VR device user
+before granting personal access is still a challenge. Existing VR
+authentication methods require users to enter PINs or draw
+graphical passwords using controllers. Though the entry is in
+the virtual space, it can be observed by others in proximity and
+is subject to critical security issues. Furthermore, the in-air hand
+movements or handheld controller-based authentications require
+active user participation and are not time-efficient. This work
+proposes a low-effort VR device authentication system based on
+the unique skull-reverberated sounds, which can be acquired
+when the user wears the VR device. Specifically, when the user
+puts on the VR device or is wearing it to log into an online
+account, the proposed system actively emits an ultrasonic signal
+to initiate the authentication session. The signal returning to the
+VR device’s microphone has been reverberated by the user’s
+head, which is unique in size, skull shape and mass. We thus
+extract head biometric information from the received signal for
+unobtrusive VR device authentication.
+<br>
+Though active acoustic sensing has been broadly used on
+mobile devices, no prior work has ever successfully applied
+such techniques to commodity VR devices. Because VR devices
+are designed to provide users with virtual reality immersion,
+the echo sounds used for active sensing are unwanted and
+severely suppressed. The raw audio before this process is also
+not accessible without kernel/hardware modifications. Thus, our
+work further solves the challenge of active acoustic sensing under
+echo cancellation to enable deploying our system on off-the-shelf
+VR devices. Additionally, we show that the echo cancellation
+mechanism is naturally good to prevent acoustic replay attacks.
+The proposed system is developed based on an autoencoder and
+a convolutional neural network for biometric data extraction and
+recognition. Experiments with a standalone and a mobile phone
+VR headset show that our system efficiently verifies a user and
+is also replay-resistant.
+<br>
+Index Terms—Virtual Reality, Authentication, Biometric
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <div>
+            {% include figure.liquid loading="eager" path="assets/img/Low-effort_VR_figure_2.png" title="example image" class="img-fluid rounded z-depth-1" style="height: 200px;"%}
+            <div class="caption">
+                 The architecture of our system.
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Low-effort_VR_figure_3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Detailed design of our CAE-CNN algorithm.
 </div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+            <iframe
+                src="https://www.youtube.com/embed/fda20SS_M_Q"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                class="rounded z-depth-1"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    youtube-demo
 </div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

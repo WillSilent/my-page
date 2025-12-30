@@ -2,15 +2,15 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='https://www.smu.edu/lyle/departments/cs/people/faculty/wang-chen'>Lyle School of Engineering, Southern Methodist University</a>.
+subtitle: <a href='https://www.smu.edu/lyle/departments/cs/people/faculty/wang-chen'>Lyle School of Engineering, Southern Methodist University.</a>
 
 profile:
   align: left
   image: my_profile.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Caruth Hall Room439</p>
-    <p>3145 Dyer Street</p>
+    <p>Caruth Hall Room 439</p>
+    <p>3145 Dyer Street,</p>
     <p>Dallas, TX 75075</p>
     <p>Email: cwang6 AT smu.edu<p>
 

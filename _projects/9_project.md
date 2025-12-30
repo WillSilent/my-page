@@ -1,80 +1,35 @@
 ---
 layout: page
-title: project 9
-description: another project with an image 🎉
-img: assets/img/6.jpg
-importance: 4
-category: nsf1
+title: Project3
+description: Converting Your Bluetooth Headphones into Active Sensing Authenticator a Bone-Conduction Solution.
+img: assets/img/bond_conduction.jpg
+importance: 3
+related_publications: true
+category: nsf2
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This work was published at 2025 IEEE 22nd International Conference on Mobile Ad-Hoc and Smart Systems (MASS) {% cite zhang2025converting %}.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Abstract
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Bluetooth headphones are increasingly commonly used in daily life, offering convenience and enhanced audio experience. However, these devices remain underexplored for human-beneficial applications such as serving as authenticator due to the challenges of implementing acoustic sensing on them. Particularly, Bluetooth headphones are limited by low-frequency audio bandwidth and have built-in echo cancellation algorithms, which makes the recorded signal incomplete and cannot be used for acoustic analysis. This work addresses these challenges and achieves acoustic sensing on bone-conduction Bluetooth headphones to extract a unique bone-conducted head biometric for user authentication. Specifically, the proposed system emits a user-friendly signal consisting of a welcome tone followed by a short human voice, and analyzes the received signals using a convolutional neural network developed with residual blocks to derive stable biometrics to verify users. Extensive experiments show that the proposed system can verify users’ identities with an average accuracy of 97.51% and can successfully reject 100% of replay attacks, even when an adversary eavesdrops on the authentication sound and the acoustic biometric data.
+<br>
+Index Terms—Acoustic Sensing, User Authentication, Bluetooth Headphones, Bone-conducted Biometric
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bond_conduction_figure_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Caption photos easily. On the left, a road goes throug
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bond_conduction_figure_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
-
-{% endraw %}
+<div class="caption">
+    Caption photos easily. On the left, a road goes throug
+</div>

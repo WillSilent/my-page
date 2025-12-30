@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: nsf2
+title: Project 6
+description: Extending the Sensing Capability of Touchscreen to Fingerprint Authentication
+img: assets/img/7.jpg
+importance: 1
+category: nsf1
 ---
 
 Every project has a beautiful feature showcase page.

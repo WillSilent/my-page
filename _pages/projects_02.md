@@ -1,22 +1,33 @@
 ---
 layout: page
-title: NSF Projects_02
+title:
 permalink: /projects/nsf_project_02
-description: A growing collection of your cool projects.
+description:
 nav: false
 nav_order: 3
 display_categories: [nsf2]
 horizontal: false
 ---
 
+<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 1.5rem;">
+  <div style="flex-shrink: 0;">
+    <img src="{{ '/assets/img/nsf_logo.webp' | relative_url }}" alt="NSF Logo" style="height: 60px;">
+  </div>
+  <div style="flex: 1;">
+    <h1 class="post-title">Investigating and Combating Micro Signal Attacks in Video Conferencing</h1>
+  </div>
+</div>
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
+  {% comment %}
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
+  {% endcomment %}
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
@@ -63,3 +74,12 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
+
+## Publications
+
+<div class="publications">
+  {% bibliography --query @*[key=wang2024sniffing] %}
+  {% bibliography --query @*[key=wang2023loweffort] %}
+  {% bibliography --query @*[key=zhang2025converting] %}
+</div>
+

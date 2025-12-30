@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Project 2
+description: Low-effort Handheld Device User Authentication Using Musical Sounds
 img: assets/img/3.jpg
-importance: 2
+importance: 1
 category: nsf1
-giscus_comments: true
 ---
 
 Every project has a beautiful feature showcase page.

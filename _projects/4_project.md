@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: nsf2
+title: Project 4
+description: Enhancing QR Code System Security by Verifying the Scanner's Gripping Hand Biometric
+img: assets/img/7.jpg
+importance: 1
+category: nsf1
 ---
 
 Every project has a beautiful feature showcase page.
