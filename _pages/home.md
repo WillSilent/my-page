@@ -9,10 +9,10 @@ profile:
   image: my_profile.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Caruth Hall Room 439</p>
-    <p>3145 Dyer Street,</p>
-    <p>Dallas, TX 75075</p>
-    <p>Email: cwang6 AT smu.edu<p>
+    <p style="font-size: 1rem; font-weight: normal;">Caruth Hall Room 439</p>
+    <p style="font-size: 1rem; font-weight: normal;">3145 Dyer Street,</p>
+    <p style="font-size: 1rem; font-weight: normal;">Dallas, TX 75075</p>
+    <p style="font-size: 1rem; font-weight: normal;">Email: cwang6 AT smu.edu</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page

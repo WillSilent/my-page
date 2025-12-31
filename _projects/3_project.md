@@ -22,7 +22,7 @@ Index Terms—Distracted driving, driver behavior, handheld device, vehicle safe
     </div>
 </div>
 <div class="caption">
-    Attacking scenario and echo sensing model.
+    Fig. 1:Illustration of acoustic signal interaction with driver’s hand.
 </div>
 
 <div class="row justify-content-sm-center">
@@ -31,5 +31,5 @@ Index Terms—Distracted driving, driver behavior, handheld device, vehicle safe
     </div>
 </div>
 <div class="caption">
-    The flow of our location privacy inference system
+    Fig. 2:The architecture of our system.
 </div>

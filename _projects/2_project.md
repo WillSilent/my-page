@@ -22,7 +22,8 @@ Key Words—Notification Privacy, User Authentication, Gripping Hand.
     </div>
 </div>
 <div class="caption">
-    Attacking scenario and echo sensing model.
+    Fig. 1:A notification tone interacting with the gripping
+hand in acoustic and vibration domains.
 </div>
 
 <div class="row justify-content-sm-center">
@@ -31,7 +32,7 @@ Key Words—Notification Privacy, User Authentication, Gripping Hand.
     </div>
 </div>
 <div class="caption">
-    The flow of our location privacy inference system
+    Fig. 2:The architecture of our system.
 </div>
 
 <div class="row">

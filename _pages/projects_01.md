@@ -75,10 +75,25 @@ horizontal: false
 {% endif %}
 </div>
 
+## News Coverage
+
+---
+
+{% include news_by_category.liquid category="nsf1" %}
+
 ## Publications
 
 <div class="publications">
-  {% bibliography --query @*[key=wang2024sniffing] %}
-  {% bibliography --query @*[key=wang2023loweffort] %}
   {% bibliography --query @*[key=zhang2025converting] %}
+  {% bibliography --query @*[key=liu2025fingerprint] %}
+  {% bibliography --query @*[key=huang2025biometric] %}
+  {% bibliography --query @*[key=huang2025musical] %}
+  {% bibliography --query @*[key=wang2024sniffing] %}
+  {% bibliography --query @*[key=wang2024qrcode] %}
+  {% bibliography --query @*[key=wang2024distracted] %}
+  {% bibliography --query @*[key=wang2023loweffort] %}
+  {% bibliography --query @*[key=deng2023signature] %}
+  {% bibliography --query @*[key=huang2022pcr] %}
+  {% bibliography --query @*[key=wang2022kiosk] %}
+  {% bibliography --query @*[key=huang2021notification] %}
 </div>

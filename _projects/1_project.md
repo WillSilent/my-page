@@ -42,7 +42,7 @@ resistance, user authentication.
     </div>
 </div>
 <div class="caption">
-    Attacking scenario and echo sensing model.
+    Fig. 1:Our challenge-response authentication model.
 </div>
 
 <div class="row justify-content-sm-center">
@@ -51,7 +51,7 @@ resistance, user authentication.
     </div>
 </div>
 <div class="caption">
-    The flow of our location privacy inference system
+    Fig. 1:The architecture of PCR-Auth.
 </div>
 
 <div class="row">
