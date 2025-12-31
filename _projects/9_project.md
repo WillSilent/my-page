@@ -22,7 +22,8 @@ Index Terms—Acoustic Sensing, User Authentication, Bluetooth Headphones, Bone-
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes throug
+    Fig. 1: Illustrating of bone-conducted signal interacting with
+the user’s head.
 </div>
 
 <div class="row justify-content-sm-center">
@@ -31,5 +32,5 @@ Index Terms—Acoustic Sensing, User Authentication, Bluetooth Headphones, Bone-
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes throug
+     Fig. 2: System architecture.
 </div>

@@ -77,6 +77,8 @@ horizontal: false
 
 ## Video Conferencing Security News
 
+---
+
 {% include news_by_category.liquid category="nsf2" %}
 
 ## Publications

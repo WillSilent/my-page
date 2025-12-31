@@ -2,80 +2,72 @@
 layout: page
 title: Biometric Encoding for Replay-Resistant Smartphone User Authentication Using Handgrips
 description: 
-img: assets/img/12.jpg
+img: assets/img/PCR-auth-figure-1.png
 importance: 1
 category: nsf1
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This work was published at IEEE Transactions on Mobile Computing 2025 {% cite huang2025biometric %} and IEEE Symposium on Security and Privacy 2022 {% cite huang2022pcr %}.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### Abstract
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Biometrics have been widely applied for user authentication. However, existing biometric authentications are vulnerable to biometric spoofing, because they can be observed and forged.
+In addition, they rely on verifying biometric features that rarely
+change. To address this issue, we propose to verify the handgrip
+biometric that can be unobtrusively extracted by acoustic signals
+when the user holds the phone. This biometric is uniquely associated with the user’s hand geometry, body-fat ratio, and gripping
+strength, which are hard to reproduce. Furthermore, we propose
+two biometric encoding techniques (i.e., temporal-frequential and
+spatial) to convert static biometrics into dynamic biometric features
+to prevent data reuse. In particular, we develop a biometric authentication system to work with the challenge-response protocol.
+We encode the ultrasonic signal according to a random challenge
+sequence and extract a distinct biometric code as the response. We
+further develop two decoding algorithms to decode the biometric
+code for user authentication. Additionally, we investigate multiple
+new attacks and explore using a latent diffusion model to solve the
+acoustic noise discrepancies between the training and testing data
+to improve system performance. Extensive experiments show our
+system achieves 97% accuracy in distinguishing users and rejects
+100% replay attacks with 0.6 s challenge sequence.
+<br>
+Index Terms—Challenge response, handgrip biometrics, replay
+resistance, user authentication.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/PCR-auth-figure-2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Attacking scenario and echo sensing model.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/PCR-auth-figure-3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    The flow of our location privacy inference system
+</div>
 
-{% endraw %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+            <iframe
+                src="https://www.youtube.com/embed/gUcs_MlIMLo"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                class="rounded z-depth-1"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</div>
+<div class="caption">
+    youtube-demo
+</div>
