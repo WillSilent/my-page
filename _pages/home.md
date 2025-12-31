@@ -42,53 +42,58 @@ I am seeking collaborations with small businesses and startups in the areas of s
 
 ## Outreach Activities
 
+<style>
+.outreach-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+</style>
+
 <div class="row mt-4">
+
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" class="img-fluid rounded z-depth-1" %}
-        <div class="caption mt-2">
-            <strong>Conference Presentation</strong><br>
-            Presenting research at IEEE Conference
-        </div>
+        {% include figure.liquid path="assets/img/cdham-2.jpeg" class="img-fluid rounded z-depth-1 outreach-img" %}
     </div>
+
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/2.jpg" class="img-fluid rounded z-depth-1" %}
-        <div class="caption mt-2">
-            <strong>Workshop & Training</strong><br>
-            Security awareness workshop for students
-        </div>
+        {% include figure.liquid path="assets/img/cdham-1.jpeg" class="img-fluid rounded z-depth-1 outreach-img" %}
     </div>
+    
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" class="img-fluid rounded z-depth-1" %}
-        <div class="caption mt-2">
-            <strong>Lab Demonstration</strong><br>
-            MIST Lab robotics security demo
-        </div>
+        {% include figure.liquid path="assets/img/cdham-3.jpg" class="img-fluid rounded z-depth-1 outreach-img" %}
     </div>
+</div>
+<div class="caption mt-2 mb-4">
+    CDHAM Grand Opening.
 </div>
 
 <div class="row mt-4">
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/4.jpg" class="img-fluid rounded z-depth-1" %}
-        <div class="caption mt-2">
-            <strong>Industry Collaboration</strong><br>
-            Meeting with startup partners
-        </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/jrotc-1.jpeg" class="img-fluid rounded z-depth-1 outreach-img" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" class="img-fluid rounded z-depth-1" %}
-        <div class="caption mt-2">
-            <strong>Guest Lecture</strong><br>
-            IoT Security seminar
-        </div>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" class="img-fluid rounded z-depth-1" %}
-        <div class="caption mt-2">
-            <strong>Podcast Interview</strong><br>
-            Discussing cybersecurity trends
-        </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/jrotc-2.jpeg" class="img-fluid rounded z-depth-1 outreach-img" %}
     </div>
 </div>
+<div class="caption mt-2 mb-4">
+    Security Workshop & Student Training
+</div>
+
+{% comment %}
+### Activity 3: Industry Collaboration & Lab Demonstrations
+<div class="row mt-4">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/activity3_1.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/activity3_2.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption mt-2 mb-4">
+    Showcased MIST Lab's cutting-edge research to industry partners and potential startup collaborators. Demonstrated robotics security solutions, blockchain-based technologies, and smart healthcare applications to foster innovation and real-world impact.
+</div>
+{% endcomment %}
 
 ---
 
